@@ -1,8 +1,8 @@
-var tasks = JSON.parse(localStorage.getItem("tasks")) || [
-    { title: "شراء الخضروات", addedDate: "2025-01-20 10:00 AM", isCompleted: false },
-    { title: "إكمال مشروع الكود", addedDate: "2025-01-21 02:30 PM", isCompleted: true },
-    { title: "مراجعة البريد الإلكتروني", addedDate: "2025-01-22 09:15 AM", isCompleted: false },
-  ];
+// var tasks = JSON.parse(localStorage.getItem("tasks")) || [
+//     { title: "شراء الخضروات", addedDate: "2025-01-20 10:00 AM", isCompleted: false },
+//     { title: "إكمال مشروع الكود", addedDate: "2025-01-21 02:30 PM", isCompleted: true },
+//     { title: "مراجعة البريد الإلكتروني", addedDate: "2025-01-22 09:15 AM", isCompleted: false },
+//   ];
   
   // متغير لتحديد إذا كنتِ في وضع التعديل
   var isEditing = false;
